@@ -1,0 +1,62 @@
+[
+  {
+    "Id": "1",
+    "Size": "M",
+    "img": "https://static.turbosquid.com/Preview/2017/02/03__12_34_22/Nike_tShirt.jpgE341C7DC-4769-4BE0-9827-AF0F6A3D7C12Large.jpg",
+    "Title": "TSHIRT",
+    "Description": "THIS IS BLACK NIKE TSHIRT",
+    "Price": 500,
+    "Brand": "nike",
+    "Gender": "Men"
+  },
+  {
+    "Id": "2",
+    "Size": "S",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/81hkyJrooeL._UL1500_.jpg",
+    "Title": "JEANS",
+    "Description": "BLUE REEBOK JEANS",
+    "Price": 600,
+    "Brand": "reebok",
+    "Gender": "Men"
+  },
+  {
+    "Id": "3",
+    "Size": "M",
+    "img": "https://5.imimg.com/data5/JJ/OL/GLADMIN-61506427/women-ljc-96-black-500x500.png",
+    "Title": "JACKET",
+    "Description": "BLACK WOODLAND JACKET",
+    "Price": 200,
+    "Brand": "woodland",
+    "Gender": "Women"
+  },
+  {
+    "Id": "4",
+    "Size": "L",
+    "img": "https://i.pinimg.com/originals/47/82/c9/4782c960460d3566f1349bae14c576b4.jpg",
+    "Title": "SHIRT",
+    "Description": "THIS IS REEBOK SHIRT",
+    "Price": 1200,
+    "Brand": "reebok",
+    "Gender": "Women"
+  },
+  {
+    "Id": "5",
+    "Size": "XL",
+    "img": "https://i.pinimg.com/originals/fb/17/ee/fb17ee7161fc59675ab744b96260fe7e.jpg",
+    "Title": "TROUSERS",
+    "Description": "THESE ARE POLO TROUSERS",
+    "Price": 900,
+    "Brand": "polo",
+    "Gender": "Women"
+  },
+  {
+    "Id": "6",
+    "Size": "L",
+    "img": "https://4.imimg.com/data4/RQ/LL/MY-10764091/mens-nike-hoodies-500x500.jpeg",
+    "Title": "Sweatshirt",
+    "Description": "THIS IS NIKE SWEATSHIRT",
+    "Price": 1100,
+    "Brand": "nike",
+    "Gender": "Men"
+  }
+]

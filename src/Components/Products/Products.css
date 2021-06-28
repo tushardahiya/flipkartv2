@@ -1,0 +1,6 @@
+.products-container {
+  display: flex;
+  background-color: white;
+  min-height: 80vh;
+  flex-wrap: wrap;
+}

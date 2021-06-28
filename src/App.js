@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+
+import Navbar from "./Components/Navbar.js/Navbar";
+import Products from "./Components/Products/Products";
+import Data from "./data/products.json";
+
+//gives me array of objects with each object being a product
+const stringData = JSON.stringify(Data);
+const parsedData = JSON.parse(stringData);
 
 function App() {
+  const [products] = useState(parsedData);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <main>
+        {products.length === 0 ? (
+          <h1>NO PRODUCT FOUND</h1>
+        ) : (
+          <Products products={products} />
+        )}
+      </main>
     </div>
   );
 }
